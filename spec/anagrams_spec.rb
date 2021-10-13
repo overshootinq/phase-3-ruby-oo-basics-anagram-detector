@@ -1,4 +1,4 @@
-describe 'Anagram' do 
+describe 'Anagram' do
   describe '.new' do
     it 'has an initialize method that takes in a word' do
       expect { Anagram.new('listen') }.not_to raise_error
